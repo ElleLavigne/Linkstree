@@ -15,20 +15,22 @@
   --link-color: hsl(30, 71%, 56%);
 
   --bg-desktop: url(./assets/bg-desktop-dark.png);
+  --bg-mobile: url(./assets/bg-mobile-dark.png);
   --switch-bg: url(./assets/moon-stars.svg);
 }
 
 .light {
   --text-color: hsl(25, 82%, 15%);
   --bg-buttom: hsl(0, 0%, 85%);
-  --bg-desktop: url(./assets/bg-mobile-light.png);
+  --bg-desktop: url(./assets/bg-desktop-light.png);
+  --bg-mobile: url(./assets/bg-mobile-light.png);
   --surface-color: hsl(25, 82%, 15%);
   --link-color: hsla(0, 0%, 0%, 0.698);
   --switch-bg: url(./assets/sun.svg);
 }
 
 body {
-  background: var(--bg-desktop) no-repeat bottom center/cover;
+  background: var(--bg-mobile) no-repeat bottom center/cover;
   transition: background 0.3s;
   height: 100vh;
 }
@@ -162,5 +164,8 @@ footer a {
   }
   #switch {
     margin-left: 420px;
+  }
+  body {
+    background-image: var(--bg-desktop);
   }
 }
