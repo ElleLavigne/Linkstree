@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quente Expresso</title>
+  </head>
+  <body>
+    <div id="switch" onclick="toggleMode()">
+      <button></button>
+      <span></span>
+    </div>
+
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/logo.png"
+          alt="xicara inlustrativa quente expresso"
+        />
+        <p>@quenteexpresso</p>
+      </div>
+
+      <ul>
+        <li><a href="#" target="_blank">Cardápio</a></li>
+        <li><a href="#" target="_blank">Faça seu pedido</a></li>
+        <li><a href="#" target="_blank">Promoções</a></li>
+        <li><a href="#" target="_blank">Localização</a></li>
+      </ul>
+
+      <div id="social-link">
+        <a href="https://www.instagram.com/" target="_blank">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_14_198)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M16 3C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16ZM16 5H8C6.34315 5 5 6.34315 5 8V16C5 17.6569 6.34315 19 8 19H16C17.6569 19 19 17.6569 19 16V8C19 6.34315 17.6569 5 16 5ZM12 8C14.2091 8 16 9.79086 16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8ZM12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10ZM16.5 6.5C17.0523 6.5 17.5 6.94772 17.5 7.5C17.5 8.05228 17.0523 8.5 16.5 8.5C15.9477 8.5 15.5 8.05228 15.5 7.5C15.5 6.94772 15.9477 6.5 16.5 6.5Z"
+                fill="#DF9141"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_14_198">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <a href="https://web.whatsapp.com/" target="_blank">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_14_204)">
+              <path
+                d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C10.2364 22 8.57709 21.5427 7.13692 20.7397L6.83171 20.5624L3.79975 21.4542C3.06936 21.6691 2.38822 21.0329 2.51987 20.3093L2.54581 20.2002L3.43756 17.1683C2.52505 15.6594 2 13.8896 2 12C2 6.47715 6.47715 2 12 2ZM12 4C7.58172 4 4 7.58172 4 12C4 13.5769 4.4552 15.0444 5.24098 16.2818C5.43935 16.5943 5.52374 16.9781 5.45652 17.3589L5.41832 17.5217L4.97667 19.0233L6.47827 18.5817C6.91075 18.4545 7.36114 18.5323 7.71817 18.759C8.95564 19.5448 10.4231 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4ZM9.10162 7.18408C9.31746 7.09158 9.57889 7.1085 9.78556 7.25926C10.29 7.62722 10.6905 8.12076 11.0344 8.60344L11.3612 9.07746C11.4132 9.15417 11.4639 9.22933 11.5138 9.30228C11.6963 9.56921 11.6753 9.9239 11.4685 10.166L11.3927 10.2422L10.4693 10.928C10.3778 10.996 10.3473 11.1195 10.4022 11.2195C10.6112 11.5998 10.9834 12.1657 11.4093 12.5916C11.8357 13.018 12.4284 13.4143 12.8348 13.6467C12.9226 13.6969 13.0294 13.6811 13.101 13.6157L13.1394 13.5706L13.7402 12.6555C13.9705 12.349 14.4007 12.282 14.7134 12.4984L15.2563 12.8768C15.7957 13.2618 16.315 13.6757 16.7255 14.2014C16.8872 14.4085 16.9112 14.6792 16.8148 14.9042C16.4188 15.8283 15.4165 16.6153 14.374 16.5769L14.2155 16.5678L14.0235 16.5488C13.9889 16.5446 13.953 16.5399 13.9158 16.5346L13.6781 16.4952C12.7544 16.3208 11.2726 15.797 9.73827 14.2627C8.20397 12.7284 7.68017 11.2466 7.50573 10.3229L7.46632 10.0852L7.44126 9.87742L7.42756 9.70191C7.42606 9.67547 7.42491 9.65047 7.42404 9.62695C7.38562 8.58294 8.17688 7.5804 9.10162 7.18408Z"
+                fill="#DF9141"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_14_204">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_14_210)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.0796 16.9463 19.446 13 19.9381V14H15C15.5523 14 16 13.5523 16 13C16 12.4477 15.5523 12 15 12H13V10C13 9.44772 13.4477 9 14 9H14.5C15.0523 9 15.5 8.55228 15.5 8C15.5 7.44772 15.0523 7 14.5 7H14C12.3431 7 11 8.34315 11 10V12H9C8.44772 12 8 12.4477 8 13C8 13.5523 8.44772 14 9 14H11V19.9381C7.05369 19.446 4 16.0796 4 12ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                fill="#DF9141"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_14_210">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_14_216)">
+              <path
+                d="M18 3C19.6569 3 21 4.34315 21 6V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34315 4.34315 3 6 3H18ZM18 5H6C5.44772 5 5 5.44772 5 6V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V6C19 5.44772 18.5523 5 18 5ZM8 10C8.51283 10 8.93551 10.386 8.99327 10.8834L9 11V16C9 16.5523 8.55228 17 8 17C7.48717 17 7.06449 16.614 7.00673 16.1166L7 16V11C7 10.4477 7.44772 10 8 10ZM11 9C11.4913 9 11.8998 9.35427 11.9841 9.82128C12.1863 9.70435 12.395 9.59892 12.6067 9.50837C13.2739 9.22295 14.2732 9.06594 15.1749 9.34949C15.6476 9.4981 16.1232 9.77907 16.4758 10.2556C16.7905 10.681 16.9599 11.1984 16.9937 11.7793L17 12V16C17 16.5522 16.5523 17 16 17C15.4872 17 15.0645 16.6139 15.0067 16.1166L15 16V12C15 11.6707 14.9201 11.5157 14.868 11.4451C14.8143 11.3726 14.7274 11.3053 14.5751 11.2574C14.2268 11.1479 13.7261 11.2048 13.3933 11.3472C12.8923 11.5615 12.4347 11.8971 12.1239 12.2083L12 12.3398V16C12 16.5523 11.5523 17 11 17C10.4872 17 10.0645 16.614 10.0067 16.1166L10 16V10C10 9.44772 10.4477 9 11 9ZM8 7C8.55228 7 9 7.44772 9 8C9 8.55228 8.55228 9 8 9C7.44772 9 7 8.55228 7 8C7 7.44772 7.44772 7 8 7Z"
+                fill="#DF9141"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_14_216">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+      </div>
+      <footer>
+        <a href="https://www.linkedin.com/" target="_blank">Trabalhe conosco</a>
+      </footer>
+    </div>
+
+  
+
+    <script src="./script.js"></script>
+  </body>
+</html>
