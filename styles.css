@@ -21,7 +21,7 @@
 .light {
   --text-color: hsl(25, 82%, 15%);
   --bg-buttom: hsl(0, 0%, 85%);
-  --bg-desktop: url(./assets/bg-desktop-light.png);
+  --bg-desktop: url(./assets/bg-mobile-light.png);
   --surface-color: hsl(25, 82%, 15%);
   --link-color: hsla(0, 0%, 0%, 0.698);
   --switch-bg: url(./assets/sun.svg);
@@ -80,7 +80,8 @@ body * {
 /* profile */
 #container {
   margin: auto;
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
 }
 #profile {
   text-align: center;
