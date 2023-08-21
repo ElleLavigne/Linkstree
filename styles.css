@@ -32,7 +32,8 @@
 body {
   background: var(--bg-mobile) no-repeat bottom center/cover;
   transition: background 0.3s;
-  height: 100vh;
+  overflow: hidden;
+  height: 100dvh;
 }
 body * {
   font-family: "Cinzel";
