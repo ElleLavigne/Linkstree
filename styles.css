@@ -32,7 +32,6 @@
 body {
   background: var(--bg-mobile) no-repeat bottom center/cover;
   transition: background 0.3s;
-  overflow: hidden;
   height: 100dvh;
 }
 body * {
